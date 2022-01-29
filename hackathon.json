@@ -24,5 +24,12 @@
         "responses": ["If symptops persist please visit the nearest health center"]},
         {"tag": "Chronic", "pattern": ["difficulty breathing or shortness of breath","loss of speech or mobility","chest pain" ],
         "responses": ["Please contact the doctor IMMEDIATELY"]},
+            {"tag":"symptoms",
+                "pattern":["symptoms","problems","ailment","disorder","complaint","diagnostics"],
+            "responses":["COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization. Most common symptoms:fever, cough, tiredness, loss of taste or smell. Less common symptoms: sore throat, headache, aches and pains, diarrhoea, a rash on skin, or discolouration of fingers or toes, red or irritated eyes.Serious symptoms: difficulty breathing or shortness of breath, loss of speech or mobility, or confusion, chest pain"]
+            },
             {"tag":"diagnosis",
-            "pattern":["test","analysis","examine",""]}]}
+                "pattern":["test","analysis","examine",""],
+                "responses":[""]
+            },
+            {"tag:"}]}
