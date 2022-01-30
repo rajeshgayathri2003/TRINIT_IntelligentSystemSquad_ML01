@@ -1,0 +1,12 @@
+{"intents":[{"tag":"greetings",
+    "patterns":["hey", "good morning","hello","good afternoon","good evening","hi","good"],
+    "responses":["hello!,what do wish to know about covid19?"]
+},
+{"tag":"prevention",
+    "patterns":["avoid", "prevent","forestall","inhibit","block","hinder","halt","stop","deter","obstruct","prohibit"],
+    "responses":["practice social distancing, Cover your mouth and nose, wash your hands with soap or use santizers frequently, Get fully vaccinated"]
+},
+{"tag":"treatment",
+    "patterns":["doctoring","cure","treat","medication","therapy","remedy","heal","prescription","regimen"],
+    "responses":["Asymptomatic cases, mild cases of COVID-19:(self care) Isolate yourself in a well ventilated room. Use a triple layer medical mask, discard mask after 8 hours of use or earlier if they become wet or visibly soiled. In the event of a caregiver entering the room, both caregiver and patient may consider using N 95 mask.Mask should be discarded only after disinfecting it with 1% Sodium Hypochlorite.Take rest and drink a lot of fluids to maintain adequate hydration. Follow respiratory etiquettes at all times.Frequent hand washing with soap and water for at least 40 seconds or clean with alcohol-based sanitizer. Don’t share personal items with other people in the household. Ensure cleaning of surfaces in the room that are touched often (tabletops, doorknobs, handles, etc.) with 1% hypochlorite solution. Monitor temperature daily.Monitor oxygen saturation with a pulse oximeter daily. Connect with the treating physician promptly if any deterioration of symptoms is noticed. Medical treatments:Treatment for patients with mild/asymptomatic disease in home isolation Patients must be in communication with a treating physician and promptly report in case of any worsening. Continue the medications for other co-morbid illness after consulting the treating physician.Patients to follow symptomatic management for fever, running nose and cough, as warranted.Patients may perform warm water gargles or take steam inhalation twice a day.When to seek immediate medical attention:Difficulty in breathing Dip in oxygen saturation (SpO2 < 94% on room air)Persistent pain/pressure in the chestMental confusion or inability to arouseThe antiviral drug Veklury(Remdesiver) in use for adults and children(at or above the age of 12 and weighing 40kg) but are strictly to be administered under the guidance of doctors "]
+    }]}
