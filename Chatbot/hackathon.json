@@ -1,0 +1,72 @@
+{"intents":[{"tag":"greetings",
+    "patterns":["hey", "good morning","hello","good afternoon","good evening","hi","good"],
+    "responses":["hello!,what do wish to know about covid19?"]
+},
+{"tag":"prevention",
+    "patterns":["avoid", "prevent","forestall","inhibit","block","hinder","halt","stop","deter","obstruct","prohibit"],
+    "responses":["practice social distancing, Cover your mouth and nose, wash your hands with soap or use santizers frequently, Get fully vaccinated"]
+},
+{"tag":"treatment",
+    "patterns":["doctoring","cure","treat","medication","therapy","remedy","heal","prescription","regimen"],
+    "responses":["Asymptomatic cases, mild cases of COVID-19:(self care) Isolate yourself in a well ventilated room. Use a triple layer medical mask, discard mask after 8 hours of use or earlier if they become wet or visibly soiled. In the event of a caregiver entering the room, both caregiver and patient may consider using N 95 mask.Mask should be discarded only after disinfecting it with 1% Sodium Hypochlorite.Take rest and drink a lot of fluids to maintain adequate hydration. Follow respiratory etiquettes at all times.Frequent hand washing with soap and water for at least 40 seconds or clean with alcohol-based sanitizer. Don’t share personal items with other people in the household. Ensure cleaning of surfaces in the room that are touched often (tabletops, doorknobs, handles, etc.) with 1% hypochlorite solution. Monitor temperature daily.Monitor oxygen saturation with a pulse oximeter daily. Connect with the treating physician promptly if any deterioration of symptoms is noticed. Medical treatments:Treatment for patients with mild/asymptomatic disease in home isolation Patients must be in communication with a treating physician and promptly report in case of any worsening. Continue the medications for other co-morbid illness after consulting the treating physician.Patients to follow symptomatic management for fever, running nose and cough, as warranted.Patients may perform warm water gargles or take steam inhalation twice a day.When to seek immediate medical attention:Difficulty in breathing Dip in oxygen saturation (SpO2 < 94% on room air)Persistent pain/pressure in the chestMental confusion or inability to arouseThe antiviral drug Veklury(Remdesiver) in use for adults and children(at or above the age of 12 and weighing 40kg) but are strictly to be administered under the guidance of doctors "]
+    },
+    {"tag":"measures for caregivers",
+        "patterns":["mother","father","nurse","duty","care","parent","guardian"],
+        "responses":["Instructions for caregivers: Mask: The caregiver should wear a triple layer medical mask. N95 mask may be considered when in the same room with the ill person.Hand hygiene: Hand hygiene must be ensured following contact with ill person or patient’s immediate environment.Exposure to patient/patient’s environment: Avoid direct contact with body fluids of the patient, particularly oral or respiratory secretions. Use disposable gloves while handling the patient. Perform hand hygiene before and after removing gloves."]},
+        {"tag":"symptoms",
+            "patterns" :["symptoms","problems","ailment","disorder","complaint","diagnostics"],
+            "responses":["COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization."]},
+        {"tag": "cold", "patterns": ["cold", "cough", "tiredness", "sore throat"],
+        "responses": ["Please visit the nearest health center to get yourself tested for COVID-19"]},
+        {"tag": "fever", "patterns": ["fever", "cold", "tiredness"], 
+        "responses": ["Please visit the nearest health center to get yourself tested for COVID-19"] },
+        {"tag": "Less Common", "patterns": ["sore throat", "headache", "ache", "pain", "aches and pain", "diarrhoea"],
+        "responses": ["If symptops persist please visit the nearest health center"]},
+        {"tag": "Chronic", "patterns": ["difficulty breathing or shortness of breath","loss of speech or mobility","chest pain" ],
+        "responses": ["Please contact the doctor IMMEDIATELY"]},
+            {"tag":"symptoms",
+                "patterns":["symptoms","problems","ailment","disorder","complaint","diagnostics"],
+            "responses":["COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization. Most common symptoms:fever, cough, tiredness, loss of taste or smell. Less common symptoms: sore throat, headache, aches and pains, diarrhoea, a rash on skin, or discolouration of fingers or toes, red or irritated eyes.Serious symptoms: difficulty breathing or shortness of breath, loss of speech or mobility, or confusion, chest pain"]
+            },
+            {"tag":"diagnosis",
+                "patterns":["test","analysis","examine","inspection","identify","pinpointed","opinion"],
+                "responses":["1. Nucleic acid amplification testing (NAAT)-(including RT-PCR).2.Antigen testing(Rapid diagnostic test (RDT)).3.Serology.4.chest imaging (X-ray/CT-scan/Lung ultrasound)"]
+            },
+            {"tag":"Covid19",
+                "patterns":["what is corona","what is covid-19","what's SARS-CoV20","what's COVID"],
+                "responses":["At the end of 2019, a novel coronavirus now known as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) was identified as the cause of a cluster of pneumonia cases in Wuhan, a city in the Hubei Province of China. It rapidly spread, resulting in a global pandemic. In February 2020, the World Health Organization named the disease COVID-19, which stands for coronavirus disease 2019."]
+                },
+            {"tag":"rtpcr","patterns":["pcr test","rt-pcr","naat","polymerase chain reaction","Nucleic acid amplification testing (NAAT)"],
+                "responses":["The polymerase chain reaction (PCR) test for COVID-19 is a molecular test that analyzes your upper respiratory specimen, looking for genetic material (ribonucleic acid or RNA) of SARS-CoV-2, the virus that causes COVID-19. Scientists use the PCR technology to amplify small amounts of RNA from specimens into deoxyribonucleic acid (DNA), which is replicated until SARS-CoV-2 is detectable if present. The PCR test has been the gold standard test for diagnosing COVID-19 since authorized for use in February 2020. It’s accurate and reliable."]
+                },
+                    {"tag":"antigen testing",
+                        "patterns":["antigen testing","alternative"],
+                        "responses":["Antigen tests are immunoassays that detect the presence of a specific viral antigen, which implies current viral infection.The currently authorized antigen tests include point-of-care, laboratory-based, and self-tests, and they are applicable to people of any age.Antigen tests are relatively inexpensive, and most can be used at the point of care. Most of the currently authorized tests return results in approximately 15–30 minutes. Antigen tests for SARS-CoV-2 are generally less sensitive than molecular test like real-time reverse transcription polymerase chain reaction (RT-PCR) and other nucleic acid amplification tests (NAATs)"]
+                    },
+                {"tag":"chest imaging(X-ray)","patterns":["x-ray","radiogram","chest imaging","fluroscope","lungs","Computed tomography","ultrasound","ct scan","X-ray image"],
+                    "responses":["COVID-19 is a respiratory disease. Clinicians may use chest imaging to diagnose people who have COVID-19 symptoms, while awaiting RT-PCR results or when RT-PCR results are negative, and the person has COVID-19 symptoms.The evidence suggests that chest CT is better at ruling out COVID‐19 infection than distinguishing it from other respiratory problems. So, its usefulness may be limited to excluding COVID‐19 infection rather than distinguishing it from other causes of lung infection."]
+                    },
+                    {"tag":"vaccines",
+                        "patterns":["vaccines","antibiotic","shot","jab","immunization","inoculation","injection","dose","booster"],
+                        "responses":["Vaccines available at present: Covaxin vaccine,Covishield vaccine,Johnson & Johnson vaccine,Moderna vaccine, Sputnik V vaccine,Zydus Cadila vaccine"]
+                        },{"tag":"vaccine efficacy",
+                         "patterns":["efficiency","benefits","effective","efficacy","powerful","impressive","valid","sucessful","able","persuasive","operative","uses"],
+                            "responses":["Large clinical trials are an important way to show if vaccines are safe and effective. An effective vaccine reduces mild, moderate and severe cases of COVID-19. After you’re vaccinated, it’s possible to spread the infection to others without getting the disease yourself. Continue to wear a mask, clean your hands, and keep a safe distance."]
+                            },
+                            {"tag":"side effects",
+                                "patterns":["safety","side effects","carryover","reaction","aftereffect"],
+                                "responses":["A COVID-19 vaccine can cause mild side effects after the first or second dose, including: Pain, redness or swelling where the shot was given.Fever,Fatigue,Headache, Muscle pain, Chills, Joint pain, Nausea and vomiting, Feeling unwell, Swollen lymph nodes.You'll be monitored for 15 minutes after getting a COVID-19 vaccine to see if you have an allergic reaction. Most side effects go away in a few days. Side effects after the second dose might be more intense. Many people have no side effects.vaccines rarely cause long-term side effects."]
+                                },
+                                {"tag":"heart","patterns":["affects heart","infects heart","effectuate"],
+                                    "responses":["there has been an increase in reported cases of myocarditis and pericarditis after mRNA COVID-19 vaccination, particularly in males ages 12 through 17.These reports are rare.These reports are rare. Symptoms to watch for include: Chest pain, Shortness of breath,Feelings of having a fast-beating, fluttering or pounding heart. If you or your child has any of these symptoms within a week of getting a COVID-19 vaccine, seek medical care."]
+                                    },{"tag":"variants and vaccines",
+                                        "patterns":["delta","omicron","variant","mutant","modify","altered","spin off","branch"],
+                                        "responses":[" the Centers for Disease Control and Prevention has identified two variants of the virus (SARS-CoV-2).Delta (B.1.617.2): This variant is nearly twice as contagious as earlier variants and might cause more severe illness. The greatest risk of transmission is among unvaccinated people. People who are fully vaccinated can get vaccine breakthrough infections and spread the virus to others. However, it appears that fully vaccinated people spread COVID-19 for a shorter period than do unvaccinated people. Omicron (B.1.1.529): This variant might spread more easily than other variants, including delta. But it’s not yet clear if omicron causes more severe disease. It’s expected that people who are fully vaccinated likely can get breakthrough infections and spread the virus to others. However, the COVID-19 vaccines are expected to be effective at preventing severe illness. This variant also reduces the effectiveness of some monoclonal antibody treatments."]
+                                     },{"tag":"women and covid-19",
+                                       "patterns":["pregnant","women","fertilization","child bearing","breast feeding","mothers","parturition","delivery","child birth"],
+                                       "responses":["Preventive measures, including frequent hand washing, refraining from excessive outdoor activities unless an emergency, and avoiding infected individuals, crowded places and public gatherings, should be strictly followed by pregnant women. They should check their temperature regularly and immediately inform their doctor if they experience shortness of breath, cough or fever.Pregnant women with suspected COVID-19 should be isolated and then transferred to a hospital equipped with sufficient health facilities and fully trained clinicians to take proper care of critically ill obstetric patients. COVID-19 vaccination is recommended for people who are pregnant, breastfeeding, trying to get pregnant now, or might become pregnant in the future."] 
+                                       },{"tag":"diet plan",
+                                        "patterns":["diet","food","nutrition","hydration","nourishment"],
+                                        "responses":["Eat a variety of food, including fruits and vegetables,Cut back on salt,Eat moderate amount of fats and oils,Limit sugar intake,Stay hydrated: Drink enough water, Prefer home-cooked meals, consume enough fibre"]
+                                    }]}
+                        
