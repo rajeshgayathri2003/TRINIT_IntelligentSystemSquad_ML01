@@ -68,5 +68,7 @@
                                        },{"tag":"diet plan",
                                         "patterns":["diet","food","nutrition","hydration","nourishment"],
                                         "responses":["Eat a variety of food, including fruits and vegetables,Cut back on salt,Eat moderate amount of fats and oils,Limit sugar intake,Stay hydrated: Drink enough water, Prefer home-cooked meals, consume enough fibre"]
-                                    }]}
+                                    },{"tag":"good bye",
+                                        "patterns":["bye","see you","thank you", "toodle-oo","sayonara","adieu"],
+                                        "responses":["toodle-oo","see you later","have a nice day","bye"]}]}
                         
